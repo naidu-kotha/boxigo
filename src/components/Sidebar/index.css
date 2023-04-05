@@ -1,0 +1,28 @@
+.side-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    list-style-type: none;
+    width: 20%;
+}
+
+.menu-container-selected {
+    border-left: 2px solid #e85541;
+}
+
+.menu-container, .menu-container-selected {
+    padding-left: 10px;
+    margin-bottom: 16px;
+    display: flex;
+}
+
+.menu-name {
+    font-family: 'Bree-serif';
+    font-size: 18px;
+    margin: 0;
+}
+
+.side-icon {
+    font-size: 20px;
+    margin-right: 10px;
+}

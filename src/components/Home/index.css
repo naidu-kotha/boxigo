@@ -1,0 +1,19 @@
+.home-bg {
+    margin: 40px;
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+}
+
+.content-container{
+    display: flex;
+}
+
+.moves-heading{
+    font-family: 'Roboto';
+    font-size: 26px;
+    color: black;
+    font-weight: bold;
+}
