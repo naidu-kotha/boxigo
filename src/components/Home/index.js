@@ -12,7 +12,7 @@ class Home extends Component {
   }
 
   getData = async () => {
-    const movesData = await fetch("http://test.api.boxigo.in/sample-data/");
+    const movesData = await fetch("/api/");
     // console.log(movesData);
     if (movesData.ok) {
       const moves = await movesData.json();
